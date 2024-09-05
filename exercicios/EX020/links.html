@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*     SELETORES PERSONALIZADOS
+         #  = id
+         .  = class
+         :  = pseudo-class
+         :: = pseudo-element
+         >  = clildren
+        */
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(226, 18, 18);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando lins</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">Git Hub</a></li>
+            <li><a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa3V5T2hUV25pUWtEYUJiMUNURGtCMk1kWlVUUXxBQ3Jtc0tsYm9WQlY2b2djbTNYZHpFM3pWSWxqdzZVUnBxc3dNY1puXzVTN2d6QzR6VTZRUWtSTTZXSUpDQ1F2N096Zm8wREQ4Q1kyeGFSSDhGdDk2aUtkMUs5Rm1UcTB6ZWJHakRHck83Mml4cW1fNXlPWWU2RQ&q=https%3A%2F%2Fwww.instagram.com%2Fcursoemvideo%2F">Canal do youtbe</a></li>
+        <li><a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa3V5T2hUV25pUWtEYUJiMUNURGtCMk1kWlVUUXxBQ3Jtc0tsYm9WQlY2b2djbTNYZHpFM3pWSWxqdzZVUnBxc3dNY1puXzVTN2d6QzR6VTZRUWtSTTZXSUpDQ1F2N096Zm8wREQ4Q1kyeGFSSDhGdDk2aUtkMUs5Rm1UcTB6ZWJHakRHck83Mml4cW1fNXlPWWU2RQ&q=https%3A%2F%2Fwww.instagram.com%2Fcursoemvideo%2F">Instagram</a></li>
+    </ul>
+</body>
+</html>

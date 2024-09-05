@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to top,  #ec1515, #000000);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: #e76712;
+}
+
+h1#principal {
+    color: bisque;
+}
+
+h2 {
+    color: aquamarine;
+
+}
+
+.basico {
+    color: rgb(0, 255, 76);
+}
+
+.principal {
+    color: rgb(245, 4, 4);
+}
