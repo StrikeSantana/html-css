@@ -1,0 +1,15 @@
+body {
+    background-image: url('espaco.jpg');
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: vh; /* Altura de 100% da tela */
+    background-size: cover;
+}
+
+img {
+    width: 300px;
+    padding: 180px;
+    height: auto;
+}
+
