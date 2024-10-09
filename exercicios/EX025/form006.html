@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+   <h1>Apredendo formularios rsrsrs</h1> 
+   <form action="cadastro.php" method="post">
+    <p>
+        <label for="icor"></label>
+        <input type="color" name="color" id="icor" value="#00ff00">
+    </p>
+
+
+    <p>
+        <label for="inivil">Nivel de satisfação</label>
+        <input type="range" name="nivel" id="inivil" min="1" max="200" value="100">
+    </p>
+
+
+    <p>
+        <label for="ifoto">Foto</label>
+        <input type="file" name="foto" id="ifoto">
+        <!--Quando você usar o "file"  method tem que esta em post-->
+    </p>
+
+
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </p>
+   </form>
+
+</body>
+</html>
