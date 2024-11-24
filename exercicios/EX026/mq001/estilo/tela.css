@@ -1,0 +1,40 @@
+@charset "UTF-8"; 
+
+/* Estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: darkgrey;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+}
+
+menu li {
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(34, 32, 32);
+    display: inline-block;
+    padding: 10px;
+}
+
+article {
+    display: block;
+    margin: auto;
+    width: 600px;
+}
